@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		
+		<title>LeVideo 360 Pano Player</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/levideo.css" />
+	</head>
+	<body>
+		
+		<div class="LeVideo" data-video-src="video/pano3.mp4" style="width: 320px; height: 480px;"></div>
+		
+		<!--
+		<div class="LeVideo" data-photo-src="images/pano1.jpg" style="width: 320px; height: 480px;"></div>
+		-->
+
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="js/three.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.levideo.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.LeVideo').LeVideo();
+			});
+		</script>
+		
+	</body>
+</html>
